@@ -1,13 +1,13 @@
-#define BLYNK_TEMPLATE_ID "TMPL3-gv00syT"
-#define BLYNK_TEMPLATE_NAME "led"
-#define BLYNK_AUTH_TOKEN "uNQ2jkBI3_yk9tPIE0UY-9wN6Fa6lvyv"
+#define BLYNK_TEMPLATE_ID "your TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "your TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "your BLYNK_AUTH_TOKEN"
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 #define led 5
  char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "iotlab";  // Enter your Wifi Username
-char pass[] = "skucetiot3";  // Enter your Wifi password
+char ssid[] = "your ssid";  // Enter your Wifi Username
+char pass[] = "your password";  // Enter your Wifi password
 void setup()
 {     
   Serial.begin(115200);
