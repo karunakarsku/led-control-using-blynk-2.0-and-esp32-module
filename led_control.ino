@@ -4,7 +4,7 @@
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
-#define led 5
+#define led 2
  char auth[] = BLYNK_AUTH_TOKEN;
 char ssid[] = "your ssid";  // Enter your Wifi Username
 char pass[] = "your password";  // Enter your Wifi password
