@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "your TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME "your TEMPLATE_NAME"
-#define BLYNK_AUTH_TOKEN "your BLYNK_AUTH_TOKEN"
+#define BLYNK_AUTH_TOKEN "your AUTH_TOKEN"
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
